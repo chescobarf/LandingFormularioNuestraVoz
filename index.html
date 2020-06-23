@@ -4,6 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Nuestra Voz | Formulario</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -19,6 +20,12 @@
       $(document).ready(function() {
           $('.scrollspy').scrollSpy();
       });
+  </script>
+  <script>
+    $('body').on("click","#frase",function(){
+    rotar();
+    }) 
+
   </script>
 </head>
 <body>
@@ -67,34 +74,39 @@
   </div>
 
   <div class="container formulario">
-    <div class="section">
+    <div id="form"class="section scrollspy">
       <div class="row">
-        <div class="col m7 offset-m3">
+        <div class="col m11 offset-m1 center-align">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Formulario</h4>
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-          <script>
-            hbspt.forms.create({
-            portalId: "7937991",
-            formId: "20e6e6f2-efb7-4234-bf95-7696627111ae"
-          });
-          </script>
+          <h3 class="uppercase"><b class="yellow-text destacador">&nbspTu opinion es nuestra opinion &nbsp</b></h3>
         </div>
+          <div class="col m7 offset-m3 center-align">
+            <br>
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+            <script>
+              hbspt.forms.create({
+              portalId: "7937991",
+              formId: "20e6e6f2-efb7-4234-bf95-7696627111ae"
+            });
+            </script>
+          </div>
       </div>
 
     </div>
   </div>
-
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="" id="containerFrases">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+            <h3 class="header col s12 light">
+              <b id="frase" class="destacador2">
+                "Tu opinion es nuestra!"
+              </b>
+            </h3>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="back3.png" alt="Unsplashed background img 3"></div>
   </div>
 
   <div class="container">
@@ -142,7 +154,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="back3.png" alt="Unsplashed background img 2"></div>
   </div>
 
   
@@ -158,9 +170,8 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+  <script src="js/frases.js"></script>
   </body>
 </html>
