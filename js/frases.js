@@ -23,6 +23,8 @@ function cambiarFrases(){
     aleat = Math.random() * (frases.length)
     aleat = Math.floor(aleat)
     frase.textContent=frases[aleat];
+
+    
   
 }
 
