@@ -15,7 +15,8 @@ let container=document.querySelector("#containerFrases")
 eventListener();
 
 function eventListener(){
-    frase.addEventListener('mouseover',cambiarFrases)
+    frase.addEventListener('mouseover',cambiarFrases);
+    frase.addEventListener('click',cambiarFrases);
 }
 
 function cambiarFrases(){
