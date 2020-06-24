@@ -11,11 +11,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,900&display=swap" rel="stylesheet">
-  <script>
-    $(document).ready(function() {
-        $('.sidenav').sidenav();
-    });
-  </script>
+
   <script>
       $(document).ready(function() {
           $('.scrollspy').scrollSpy();
@@ -32,25 +28,24 @@
 
 </head>
 <body>
-  <div class="navbar-fixed">
+  <div class="navbar-fixed ">
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
         <a href="#home" class="brand-logo"><img src="logo_NV.png" alt="Nuestra Voz"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li>
-            <a href="#form" class="btn purple accent-1 "><i class="material-icons right">book</i>Envianos tu Opinion</a>
+            <a href="#form" class="btn purple accent-1 "><i class="material-icons right">book</i>Envíanos tu Opinión</a>
           </li>
         </ul>
-
-        <ul id="nav-mobile" class="sidenav">
-          <li>
-            <a href="#form" class="btn purple accent-1 "><i class="material-icons right">book</i>Envianos tu Opinion</a>
-          </li>
-        </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
     </nav>
   </div>
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <a href="#form" class="btn purple accent-1 ">Envíanos tu Opinión</a>
+    </li>
+  </ul>
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -58,7 +53,7 @@
         <div class="row center-align">
           <div class="col m10 offset-m2 left-align">
             <h1 class="white-text frase">
-              <b>¿Qué necesitas tu<br>que
+              <b>¿Qué necesitas tú<br>que
                 <span class="yellow-text bold">cambie</span> en Chile?
               </b>
             </h1> 
@@ -66,7 +61,7 @@
           <div class="row center">
             <a href="#form" id="download-button" class="btn-large waves-effect waves-light teal">
               <i class="material-icons right">arrow_drop_down</i>
-              Envia tu opinion aqui
+              Envía tu opinión aquí
             </a>
           </div>
         </div>
@@ -81,7 +76,7 @@
       <div class="row">
         <div class="col m11 offset-m1 center-align">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h3 class="uppercase"><b class="yellow-text destacador">&nbspTu opinion es nuestra opinion &nbsp</b></h3>
+          <h3 class="uppercase"><b class="yellow-text destacador">&nbspTu opinión es nuestra opinión&nbsp</b></h3>
         </div>
           <div class="col m7 offset-m3 center-align">
             <br>
@@ -103,7 +98,7 @@
         <div class="row center">
             <h3 class="header col s12 light">
               <b id="frase" class="destacador2 yellow-text">
-                "Tu opinion es nuestra!"
+                "Tu opinión es nuestra!"
               </b>
             </h3>
         </div>
@@ -121,7 +116,7 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center  deep-purple-text text-lighten-3"><i class="material-icons">group</i></h2>
-            <h5 class="center">Quienes Somos</h5>
+            <h5 class="center">¿Quiénes Somos?</h5>
 
             <p class="light">Nuestra Voz es un espacio colaborativo creado para recoger y escuchar las voces de todas las mujeres que hoy habitan Chile, sin exclusiones de ningún tipo. Constituida como una convocatoria inédita, diseñamos este espacio para articularnos y conectarnos con los desafíos que el país tiene por delante.</p>
           </div>
@@ -130,7 +125,7 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center yellow-text"><i class="material-icons">star</i></h2>
-            <h5 class="center">Nuestra misión/visión</h5>
+            <h5 class="center">Nuestra Misión / Visión</h5>
             <p class="light">En Nuestra Voz queremos escuchar para visibilizar el conocimiento y las propuestas de las mujeres que habitan Chile. Tenemos la fuerte convicción de que sus conocimientos y testimonios deben estar presentes en el debate de las soluciones que exige el país.</p>
           </div>
         </div>
@@ -150,7 +145,7 @@
 
 
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+    <div class="section no-pad-bot celular">
       <div class="container">
         <div class="row center">
           <h3 class="header col s12 yellow-text destacador"><b>Construyamos juntas el Chile que queremos.<br>
@@ -160,7 +155,7 @@
         <div class="row center">
           <a href="#form" id="download-button" class="btn-large waves-effect waves-light teal">
             <i class="material-icons right">arrow_drop_up</i>
-            Me Sumo!
+            ¡Me Sumo!
           </a>
         </div>
       </div>
