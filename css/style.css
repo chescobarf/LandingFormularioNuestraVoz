@@ -33,19 +33,19 @@ p {
   }
 
 @media only screen and (max-width : 992px) {
+
   .parallax-container .section {
     position: absolute;
-    top: 40%;
+    top: -5%;
   }
+  
   #index-banner .section {
     top: 10%;
   }
   .frase{
     font-size:3.6rem;
   }
-  .parallax-container .section .celular{
-    top: -5%;
-  }
+
 }
 
 @media only screen and (max-width : 600px) {
@@ -55,6 +55,7 @@ p {
   .frase{
     font-size:3.6rem;
   }
+
   
 }
 
