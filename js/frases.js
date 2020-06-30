@@ -11,21 +11,26 @@ let frases = [
 
 let frase=document.querySelector("#frase");
 let container=document.querySelector("#containerFrases")
+// eventListener();
 
-eventListener();
+// function eventListener(){
+//     frase.addEventListener('mouseover',cambiarFrases);
+//     frase.addEventListener('click',cambiarFrases);
+// }
 
-function eventListener(){
-    frase.addEventListener('mouseover',cambiarFrases);
-    frase.addEventListener('click',cambiarFrases);
-}
-
-function cambiarFrases(){
+// function cambiarFrases(){
+//     // aleat = Math.random() * (frases.length)
+//     // aleat = Math.floor(aleat)
+//     $("#frase").fadeToggle(1000,cambiar());
+//     // frase.textContent=frases[aleat]
+// }
+function cambiar(){
     aleat = Math.random() * (frases.length)
     aleat = Math.floor(aleat)
-    frase.textContent=frases[aleat];
-
-    
-  
+    frase.textContent=frases[aleat]
 }
+//setTimeout(cambiar, 2000);
+setInterval(cambiar, 1500);
+
 
 
