@@ -108,3 +108,12 @@ footer.page-footer {
   font-weight: 900;
 }
 
+.ocultar{
+  background-color:#fff;
+  height: 50px;
+  position: relative;
+  top: 495px;
+}
+.hidden{
+  visibility: hidden;
+}
