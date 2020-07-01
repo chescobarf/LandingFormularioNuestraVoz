@@ -77,7 +77,7 @@ footer.page-footer {
 }
 
 .parallax {
-  background-image: url(/back3.png);
+  background-image: url(/img/back3.png);
   background-size: cover;
   background-position: 50% -15%;
   background-attachment: fixed;
