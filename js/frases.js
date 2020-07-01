@@ -1,10 +1,10 @@
 
 let frases = [
     `"Un Chile mas inclusivo"`,
-    `"Un pais con las mismas posibilidades para todas"`,
+    `"Un país con las mismas posibilidades para todas"`,
     `"Un Chile seguro para todas"`,
-    `"Con politicas mas justas"`,
-    `"Que se respeten todas las minorias sexuales"`,
+    `"Con políticas mas justas"`,
+    `"Que se respeten todas las minorías sexuales"`,
     `"Salir sin miedos"`,
     `"Ser tratada igual que todos"`
 ]
