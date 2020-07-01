@@ -23,14 +23,7 @@
           $('.scrollspy').scrollSpy();
       });
   </script>
-  <script>
-    $(document).ready(function(){
-    $('.carousel').carousel();
-    $('.carousel.carousel-slider').carousel({
-    fullWidth: true
-  });
-  });
-  </script>
+
 
 </head>
 <body>
@@ -38,20 +31,16 @@
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
         <a href="#home" class="brand-logo"><img src="logo_NV.png" alt="Nuestra Voz"></a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li>
-            <a href="#form" class="btn purple accent-1 "><i class="material-icons right">book</i>Envíanos tu Opinión</a>
+            <a id="navbar-button" href="#form" class="btn purple accent-1 "><i class="material-icons right">book</i>Envíanos tu Opinión</a>
           </li>
         </ul>
       </div>
     </nav>
   </div>
-  <ul class="sidenav" id="mobile-demo">
-    <li>
-      <a href="#form" class="btn purple accent-1 ">Envíanos tu Opinión</a>
-    </li>
-  </ul>
+
+
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -65,7 +54,7 @@
             </h1> 
           </div>
           <div class="row center">
-            <a href="#form" id="download-button" class="btn-large waves-effect waves-light teal">
+            <a href="#form" id="firstSection-button" class="btn-large waves-effect waves-light teal accent-4">
               <i class="material-icons right">arrow_drop_down</i>
               Envía tu opinión aquí
             </a>
@@ -87,14 +76,13 @@
           <div class="col m7 offset-m3 center-align">
             <br>
             <div class="ocultar"><span class=hidden>.</span></div>  
-            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-            <script>
-              hbspt.forms.create({
-              portalId: "8008816",
-              formId: "ff6da41b-a252-43af-bebe-666242eb4d16"
-            });
-            </script>
-
+              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+              <script>
+                hbspt.forms.create({
+                portalId: "8008816",
+                formId: "ff6da41b-a252-43af-bebe-666242eb4d16"
+              });
+              </script>
           </div>
       </div>
 
@@ -106,7 +94,7 @@
         <div class="row center">
             <h3 class="header col s12 light">
               <b id="frase" class="destacador2 yellow-text">
-                "Tu opinión es la nuestra!"
+                "Nuestra Voz es la voz de todas"
               </b>
             </h3>
         </div>
@@ -125,7 +113,6 @@
           <div class="icon-block">
             <h2 class="center  deep-purple-text text-lighten-3"><i class="material-icons">group</i></h2>
             <h5 class="center">¿Quiénes Somos?</h5>
-
             <p class="light">Nuestra Voz es un espacio colaborativo creado para recoger y escuchar las voces de todas las mujeres que hoy habitan Chile, sin exclusiones de ningún tipo. Constituida como una convocatoria inédita, diseñamos este espacio para articularnos y conectarnos con los desafíos que el país tiene por delante.</p>
           </div>
         </div>
@@ -161,7 +148,7 @@
             </h3>
         </div>
         <div class="row center">
-          <a href="#form" id="download-button" class="btn-large waves-effect waves-light teal">
+          <a href="#form" id="lastSection-button" class="btn-large waves-effect waves-light teal accent-4">
             <i class="material-icons right">arrow_drop_up</i>
             ¡Me Sumo!
           </a>
