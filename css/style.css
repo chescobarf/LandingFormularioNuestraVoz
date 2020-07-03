@@ -60,7 +60,8 @@ p {
     margin-top: 100px;
   }
   .ocultar{
-    top : 520px !important;
+    top : -100px !important;
+    height: 40px !important;
    }
 
 }
@@ -114,11 +115,12 @@ footer.page-footer {
   font-weight: 900;
 }
 
+
 .ocultar{
   background-color:#fff;
-  height: 50px;
+  height: 30px;
   position: relative;
-  top: 495px;
+  top: -82px;
 }
 .hidden{
   visibility: hidden;
